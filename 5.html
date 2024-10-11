@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <script>
+        //ESS
+        function somaV1(a,b){
+            return("Soma: "+(a+b));
+        }
+        //ou
+        var somaV2 = function(a,b){
+            return("Soma: "+(a,b));
+        }
+        //ES6
+        const somaV3=(a,b) =>{
+            return ("Soma: "+(a,b));
+        }
+    </script>
+</head>
+<body>
+    <h2> Exemplo 2 </h2>
+        <script>
+            document.write(somaV1(5,5)+"<br>");
+            document.write(somaV2(10,20)+"<br>");
+            document.write(somaV3(130,230)+"<br/>");
+        </script>
+</body>
+</html>
